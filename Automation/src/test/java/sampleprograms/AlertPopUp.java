@@ -33,8 +33,8 @@ public class AlertPopUp {
 		Thread.sleep(3000);
 		String popupMSg2 = alt.getText();//To fetch text present in the popup
 		alt.dismiss();//Click on cancel button
-		System.out.println(popupMSg);
-		System.out.println(popupMSg2);
+		//System.out.println(popupMSg);
+		//System.out.println(popupMSg2);
 
 	}
 
