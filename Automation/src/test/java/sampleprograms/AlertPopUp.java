@@ -29,6 +29,11 @@ public class AlertPopUp {
 		String popupMSg = alt.getText();//To fetch text present in the popup
 		alt.dismiss();//Click on cancel button
 		System.out.println(popupMSg);
+		driver.findElement(By.xpath("//button[text()='Click for JS Confirm']")).click();
+		Thread.sleep(3000);
+		String popupMSg2 = alt.getText();//To fetch text present in the popup
+		alt.dismiss();//Click on cancel button
+		System.out.println(popupMSg);
 //		alt.sendKeys("Message");//Type what ever the text you want inside of the box.
 		//driver.quit();
 
